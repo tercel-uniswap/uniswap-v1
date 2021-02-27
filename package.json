@@ -1,0 +1,30 @@
+{
+  "name": "uniswap-v1",
+  "description": "Core contracts for the uniswap v1 protocol",
+  "version": "1.0.1",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "uniswap",
+    "ethereum",
+    "v1",
+    "core"
+  ],
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "ethers": "^5.0.8"
+  },
+  "scripts": {
+    "deploy": "node ./deploy/deploy.js"
+  }
+}
